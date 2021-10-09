@@ -1,65 +1,136 @@
-.body{
+.body {
   width: 100%;
   height: 100vh;
 }
-.text-css{
-  margin-right: 30px;
-  background-color: red;  
+.text-css {
+  margin-right: 45px;
+ 
 }
-.home-css{
-  margin-right: 30px;
-  /* background-color: white; */
-  /* display: block;   */
-}
-p:hover{
-  background-color: white;
+.home-css {
+  margin-right: 40px;
   
 }
+h4:hover {
+  background-color: white;
+  /* width: 60px */
+}
 
-.Main-css{
+.Main-css {
   display: grid;
-  width: 100%;
+  /* width: 100%; */
   grid-template-columns: max-content;
   text-align: center;
   justify-content: center;
-  font-size:  xx-large;
+  font-size: xx-large;
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
-  background-color: red;
-  color:white;
-  margin-bottom: 40px;
-  
+  background-color: #f44336!important;  
+  color: white;
+  margin-bottom: 65px;
+  line-height: 12.5px;
 }
-.btn-css{
-  background-color:black;
-  color:white;
-  width:200px;
+.btn-css {
+  background-color: black;
+  color: white;
+  width: 200px;
   display: flex;
   height: 60px;
   justify-content: center;
   align-items: center;
   margin-left: 100px;
+  margin-bottom: 30%;
 }
-.icon-css{
-  color:red;
-  font-size: 400px;
+.icon-css {
+  color: #f44336!important;
+  font-size: 170px;
+  margin-bottom: 75px;
 }
-.lorem-css{
+.lorem-css {
   display: flex;
+  justify-content: space-evenly;
+  margin-left: 260px;
+  margin-right: 260px;
+  align-items: flex-end;
 }
-.textcss{
-  /* display: flex; */
-  background-color: #fff;
-  justify-content:space-between
+.textcss {
+  font-weight: 400;
+  /* display: flex;
+  justify-content:center; */
+  /* background-color: #fff; */
+  justify-content: space-around;
 }
-.header{
+.header {
   width: 100%;
   display: flex;
-  justify-content:flex-start;
-  background-color: red;
-    padding: 12px;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 500;
-    font-size: large;
-   box-shadow: pink 5px 10px 10px;
+  /* justify-content: flex-start; */
+  background-color: #f44336!important;
+  /* padding: 12px; */
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: large;
+  border: 1px solid black;
+  box-shadow: 5px 10px 10px black;
+  position:fixed;
+  padding-left: 2%;
+
+  
+}
+.start-css{
+  margin-top: 44%;
+  font-weight: 370;
+
+}
+.lorem-title{
+ margin: 10px 0;
+  font-weight: 300;
+  font-size:36px
+}
+.text-light{
+  font-weight: 100;
+  color: gray
+}
+.lorem-p{
+  font-weight: 600;
+}
+.Sec-lorem-css{
+  background-color:#f1f1f1!important;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+.container{
+  background-color:#000 !important;
+  opacity:.60;
+  width:100%;
+  display: flex;
+  justify-content:center;
+  padding-bottom :64px !important;
+  padding-top: 64px !important;
+  text-align:center;
+  font-weight: 400;
+  font-size:xx-large;
+  color: white;
+}
+.Footer-css{
+  display: flex;
+  justify-content:center;
+  font-size:xx-large;
+  margin-top:08%
+
+}
+i:hover{
+  color:grey; 
+}
+.footer-css{
+  display: flex;
+  justify-content:center;
+  margin-top:04%;
+  color:gray
+}
+@media only screen and (max-width:"600px"){
+  .body{
+    width: 100%;
+  }
+  .icon-css{
+   background-color: purple;
+  }
 }
