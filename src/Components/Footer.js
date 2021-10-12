@@ -6,12 +6,12 @@ const Footer = () => {
   return (
       <>
     <div className="Footer-css">
-      <i class="fa fa-facebook-official"></i>
-      <i class="fa fa-instagram"></i>
-      <i class="fa fa-snapchat"></i>
-      <i class="fa fa-pinterest-p"></i>
-      <i class="fa fa-twitter"></i>
-      <i class="fa fa-linkedin"></i>
+      <i className="fa fa-facebook-official"></i>
+      <i className="fa fa-instagram"></i>
+      <i className="fa fa-snapchat"></i>
+      <i className="fa fa-pinterest-p"></i>
+      <i className="fa fa-twitter"></i>
+      <i className="fa fa-linkedin"></i>
     </div>
     <div className="footer-css">
         <p>

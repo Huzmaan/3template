@@ -48,6 +48,7 @@
     color: red;
     margin-left: 25%
 }
+
 .start-css{
   margin-top: 44%;
   font-weight: 370;
@@ -56,14 +57,17 @@
 .lorem-title{
  margin: 10px 0;
   font-weight: 300;
-  font-size:36px
+  font-size:36px;
+  margin-bottom:3%;
 }
 .text-light{
   font-weight: 100;
-  color: gray
+  color: gray;
+  margin-bottom: 3%;
 }
 .lorem-p{
   font-weight: 600;
+  margin-bottom: 4%;
 }
 .Sec-lorem-css{
   background-color:#f1f1f1!important;
@@ -117,4 +121,24 @@ button:hover{
     /* margin-bottom: 75px;
     margin-right: 60px; */
   }
+}
+.text-light{
+  font-weight: 100;
+  color: gray;
+  margin-bottom: 5%;
+}
+.lorem-p{
+  font-weight: 600;
+  margin-bottom: 5%;
+}
+.Sec-lorem-css{
+  background-color:#f1f1f1!important;
+ 
+}
+.icon-css{
+
+  font-size: 83vh;
+    color: red;
+    margin-left: 25%;
+    margin-top: 50px;
 }

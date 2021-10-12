@@ -1,20 +1,12 @@
 import React from "react";
 
 const Header = () => {
-  function navbar() {
-    var x = document.getElementsByClassName("topnav");
-    console.log(x.className)
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
-  }
+  
   return (
     <>
       <div className="header-css">
         {/* <div className="topnav" id="myTopnav">
-          <a href="#home" class="active">
+          <a href="#home" className="active">
             Home
           </a>
           <a href="#Link1">Link1</a>
