@@ -33,8 +33,8 @@ const Main = () => {
       <br/>
       <br/>
       <div className="Sec-lorem-css">
-      <div className="lorem-css" >
-        <FontAwesomeIcon  className="icon-css" icon={faCoffee}/>
+      <div className="Second-lorem-css" >
+        <FontAwesomeIcon  className="Second-icon-css" icon={faCoffee}/>
           <div className="textcss">
         <h1 className="lorem-title">Lorem Ipsum</h1>
         <h4 className="lorem-p">
