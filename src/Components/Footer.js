@@ -5,13 +5,13 @@ import React from "react";
 const Footer = () => {
   return (
       <>
-    <div className="Footer-css">
-      <i className="fa fa-facebook-official"></i>
-      <i className="fa fa-instagram"></i>
-      <i className="fa fa-snapchat"></i>
-      <i className="fa fa-pinterest-p"></i>
-      <i className="fa fa-twitter"></i>
-      <i className="fa fa-linkedin"></i>
+    <div  className="Footer-css">
+      <i style={{marginRight:"3px"}} className="fa fa-facebook-official"></i>
+      <i style={{marginRight:"3px"}} className="fa fa-instagram"></i>
+      <i style={{marginRight:"3px"}} className="fa fa-snapchat"></i>
+      <i style={{marginRight:"3px"}} className="fa fa-pinterest-p"></i>
+      <i style={{marginRight:"3px"}} className="fa fa-twitter"></i>
+      <i style={{marginRight:"3px"}} className="fa fa-linkedin"></i>
     </div>
     <div className="footer-css">
         <p>

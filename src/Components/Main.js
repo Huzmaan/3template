@@ -27,15 +27,19 @@ const Main = () => {
           consequat.
         </p>
         </div>
+        <div className="main-icon">
         <FontAwesomeIcon  className="icon-css" icon={faAnchor}/>
+        </div>
       </div>
       <br/>
       <br/>
       <br/>
       <div className="Sec-lorem-css">
-      <div className="Second-lorem-css" >
+        <div className="sec-main-icon">
         <FontAwesomeIcon  className="Second-icon-css" icon={faCoffee}/>
-          <div className="textcss">
+        </div>
+      <div className="Second-lorem-css" >
+          <div className="Sec-textcss">
         <h1 className="lorem-title">Lorem Ipsum</h1>
         <h4 className="lorem-p">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
