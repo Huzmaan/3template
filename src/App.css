@@ -192,12 +192,13 @@ button:hover{
   }
   .Second-icon-css {
     color: #f44336!important;
-    font-size: 170px;
-    margin-left: 90px;
-    /* margin-right: 170px; */
-    /* margin-top: 248px; */
-   
-    
+    font-size: 45em;
+  }
+  .sec-main-icon{
+    display: flex;
+    justify-content: end;
+    margin-top: -20%;
+    margin-right: 26px;
   }
   .text-light{
     font-weight: 100;
@@ -211,7 +212,13 @@ button:hover{
   .Sec-lorem-css{
     background-color:#f1f1f1!important;
     /* display: flex; */
-    width: 100%;
+    width:100%;
+    justify-content: center;
+    margin-right: 170px;
+    align-items: flex-start;
+    display: flex;
+    padding: 8% 106px!important;
+    margin-top: -15%;
     
   }
   .Sec-text-css{
